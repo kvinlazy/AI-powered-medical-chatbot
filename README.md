@@ -3,8 +3,6 @@
 ## **Overview**
 The **Communication Data Dashboard** is a Streamlit-based application designed to visualize communication metrics, provide an AI-powered medical chatbot, and manage patient referrals. It combines interactive data visualization, AI capabilities, and streamlined referral management into a single platform.
 
----
-
 ## **Key Features**
 
 ### 1. **Metrics Dashboard**
@@ -25,8 +23,6 @@ Visualize trends in communication data:
 - **Referral Form:** Collects patient details (name, date of birth, hospital number, reason for referral).
 - Displays a **Referral List** with submission status.
 - Enables marking referrals as "Complete" with a simple button click.
-
----
 
 ## **Technical Details**
 
@@ -54,8 +50,6 @@ Visualize trends in communication data:
 4. **APIs and Authentication:**
    - Utilizes Hugging Face API with a token-based authentication mechanism for querying the chatbot.
 
----
-
 ## **How to Run the Application**
 
 ### **Prerequisites**
@@ -73,7 +67,6 @@ Visualize trends in communication data:
    ```
 3. Access the app in your web browser at `http://localhost:8501`.
 
----
 
 ## **Future Enhancements**
 - Integrate real-world data sources for live metrics.
@@ -81,7 +74,6 @@ Visualize trends in communication data:
 - Enhance AI chatbot responses with domain-specific fine-tuning.
 - Expand referral management features to include detailed analytics.
 
----
 
 ## **Disclaimer**
 This application is for demonstration purposes only. The AI Doctor chatbot is not intended to provide professional medical advice and should not be relied upon as such. Always consult a qualified medical professional for health-related concerns.
