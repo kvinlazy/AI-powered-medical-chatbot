@@ -66,7 +66,7 @@ with tab1:
 
     # Hugging Face API details
     API_URL = "https://api-inference.huggingface.co/models/distilgpt2"
-    headers = {"Authorization": f"Bearer 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"}
+    headers = {"Authorization": f"Bearer Your_Key_API"}
 
     # Function to query Hugging Face model
     def query_huggingface(payload):
